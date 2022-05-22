@@ -67,6 +67,12 @@ build CMakeFiles/graph_6.dir/list/list.cpp.obj: CXX_COMPILER__graph_6_Debug C$:/
   OBJECT_DIR = CMakeFiles\graph_6.dir
   OBJECT_FILE_DIR = CMakeFiles\graph_6.dir\list
 
+build CMakeFiles/graph_6.dir/readGraph/readGraph.cpp.obj: CXX_COMPILER__graph_6_Debug C$:/Users/Iluha/Documents/github_repos/graph-6/readGraph/readGraph.cpp || cmake_object_order_depends_target_graph_6
+  DEP_FILE = CMakeFiles\graph_6.dir\readGraph\readGraph.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\graph_6.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph_6.dir\readGraph
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target graph_6
@@ -75,7 +81,7 @@ build CMakeFiles/graph_6.dir/list/list.cpp.obj: CXX_COMPILER__graph_6_Debug C$:/
 #############################################
 # Link the executable graph_6.exe
 
-build graph_6.exe: CXX_EXECUTABLE_LINKER__graph_6_Debug CMakeFiles/graph_6.dir/main.cpp.obj CMakeFiles/graph_6.dir/list/node.cpp.obj CMakeFiles/graph_6.dir/list/list.cpp.obj
+build graph_6.exe: CXX_EXECUTABLE_LINKER__graph_6_Debug CMakeFiles/graph_6.dir/main.cpp.obj CMakeFiles/graph_6.dir/list/node.cpp.obj CMakeFiles/graph_6.dir/list/list.cpp.obj CMakeFiles/graph_6.dir/readGraph/readGraph.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\graph_6.dir
