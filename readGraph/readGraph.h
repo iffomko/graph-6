@@ -11,3 +11,5 @@
 #include <iostream>
 #include <fstream>
 #include "../list/list.h"
+
+list* readGraph(std::ifstream &fin, int &n);

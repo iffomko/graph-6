@@ -73,6 +73,12 @@ build CMakeFiles/graph_6.dir/readGraph/readGraph.cpp.obj: CXX_COMPILER__graph_6_
   OBJECT_DIR = CMakeFiles\graph_6.dir
   OBJECT_FILE_DIR = CMakeFiles\graph_6.dir\readGraph
 
+build CMakeFiles/graph_6.dir/translate/translate.cpp.obj: CXX_COMPILER__graph_6_Debug C$:/Users/Iluha/Documents/github_repos/graph-6/translate/translate.cpp || cmake_object_order_depends_target_graph_6
+  DEP_FILE = CMakeFiles\graph_6.dir\translate\translate.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\graph_6.dir
+  OBJECT_FILE_DIR = CMakeFiles\graph_6.dir\translate
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target graph_6
@@ -81,7 +87,7 @@ build CMakeFiles/graph_6.dir/readGraph/readGraph.cpp.obj: CXX_COMPILER__graph_6_
 #############################################
 # Link the executable graph_6.exe
 
-build graph_6.exe: CXX_EXECUTABLE_LINKER__graph_6_Debug CMakeFiles/graph_6.dir/main.cpp.obj CMakeFiles/graph_6.dir/list/node.cpp.obj CMakeFiles/graph_6.dir/list/list.cpp.obj CMakeFiles/graph_6.dir/readGraph/readGraph.cpp.obj
+build graph_6.exe: CXX_EXECUTABLE_LINKER__graph_6_Debug CMakeFiles/graph_6.dir/main.cpp.obj CMakeFiles/graph_6.dir/list/node.cpp.obj CMakeFiles/graph_6.dir/list/list.cpp.obj CMakeFiles/graph_6.dir/readGraph/readGraph.cpp.obj CMakeFiles/graph_6.dir/translate/translate.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\graph_6.dir
