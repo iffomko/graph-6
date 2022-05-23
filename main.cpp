@@ -7,7 +7,7 @@
 
 int main() {
     std::ifstream fin("C:\\Users\\Iluha\\Documents\\github_repos\\graph-6\\input.txt");
-    int n, v;
+    int n;
 
     list* graph = readGraph(fin, n);
 
